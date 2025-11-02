@@ -221,11 +221,11 @@
   <div class="chat-container">
     <div class="chat-header">
       🤖 AI Chat Assistant
-      <button id="changeKeyBtn">Change Key</button>
+      <button id="changeKeyBtn">Change API Key</button>
     </div>
     <div id="chatBox" class="chat-box"></div>
     <div class="input-area">
-      <textarea id="userPrompt" rows="1" placeholder="Type your message..."></textarea>
+      <textarea id="userPrompt" rows="1" placeholder="Type your message here..."></textarea>
       <button id="sendBtn">Send</button>
     </div>
   </div>
@@ -233,8 +233,8 @@
   <!-- ===== Custom Modal for API Key ===== -->
   <div id="apiModal" class="modal" style="display: none;">
     <div class="modal-content">
-      <h3>Enter Your OpenRouter API Key</h3>
-      <input type="password" id="apiKeyInput" placeholder="Paste your API key here" />
+      <h3>Enter OpenRouter API Key</h3>
+      <input id="apiKeyInput" placeholder="Paste your API key here" />
       <button id="saveKeyBtn">Save & Continue</button>
     </div>
   </div>
@@ -367,4 +367,6 @@
   </script>
 </body>
 </html>
+
+
 
